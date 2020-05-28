@@ -1,4 +1,5 @@
 class MP3Importer
+<<<<<<< HEAD
   attr_accessor :filename
 
   def initialize(path)
@@ -25,5 +26,7 @@ class MP3Importer
       Song.new_by_filename(file)
     end
   end
+=======
+>>>>>>> c623027415a6ec8853b471d30d1b14aa0cfa95ae
 
 end

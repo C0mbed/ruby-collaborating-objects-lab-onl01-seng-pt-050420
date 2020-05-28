@@ -7,7 +7,11 @@ class Artist
   @@all = []
 
   def initialize(artist)
+<<<<<<< HEAD
     @name = artist
+=======
+    @name = name
+>>>>>>> c623027415a6ec8853b471d30d1b14aa0cfa95ae
     @@all << self
   end
 
@@ -20,6 +24,7 @@ class Artist
   end
 
   def songs
+<<<<<<< HEAD
     Song.all.select {|song| song.artist == self}
   end
 
@@ -37,5 +42,8 @@ class Artist
     current_songs.each do |song|
       puts song.name
     end
+=======
+    binding.pry
+>>>>>>> c623027415a6ec8853b471d30d1b14aa0cfa95ae
   end
 end
